@@ -3,13 +3,13 @@
 <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>COPIL RETAIL — Tableau de bord</title>
 <style>
-:root{--bg:#f4f6fa;--surface:#fff;--navy:#1a2744;--blue:#1d4e89;--line:#dfe5ee;--txt:#1f2733;--mut:#5a6677;--green:#1e7d32;--red:#c0392b;--alt:#eef2f9;--chip:#e7edf6;--chipon:#1d4e89;color-scheme:light dark;box-sizing:border-box;padding-top:env(safe-area-inset-top,0);padding-bottom:env(safe-area-inset-bottom,0)}
+:root{--bg:#f4f6fa;--surface:#fff;--navy:#1a2744;--blue:#1d4e89;--line:#dfe5ee;--txt:#1f2733;--mut:#5a6677;--green:#1e7d32;--red:#c0392b;--alt:#eef2f9;--chip:#e7edf6;--chipon:#1d4e89;--banner:#b3202a;--bannersub:#f6d6d8;color-scheme:light dark;box-sizing:border-box;padding-top:env(safe-area-inset-top,0);padding-bottom:env(safe-area-inset-bottom,0)}
 *{box-sizing:border-box}
-@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0f141c;--surface:#171f2b;--navy:#0c1422;--blue:#2d63a8;--line:#2a3545;--txt:#e6ebf2;--mut:#9aa7b8;--alt:#1c2634;--chip:#22303f;--chipon:#2d63a8}}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0f141c;--surface:#171f2b;--navy:#0c1422;--blue:#2d63a8;--line:#2a3545;--txt:#e6ebf2;--mut:#9aa7b8;--alt:#1c2634;--chip:#22303f;--chipon:#2d63a8;--banner:#8e1b23;--bannersub:#efc9cc}}
 html,body{margin:0}body{background:var(--bg);color:var(--txt);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;font-size:15px;line-height:1.4}
-header{background:var(--navy);color:#fff;padding:14px 18px;position:sticky;top:env(safe-area-inset-top,0);z-index:10}
-body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0);background:var(--navy);z-index:11}
-h1{font-size:17px;margin:0 0 3px}.sub{font-size:12px;color:#c8d6ec}
+header{background:var(--banner);color:#fff;padding:14px 18px;position:sticky;top:env(safe-area-inset-top,0);z-index:10}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0);background:var(--banner);z-index:11}
+h1{font-size:17px;margin:0 0 3px}.sub{font-size:12px;color:var(--bannersub)}
 .controls{display:flex;flex-wrap:wrap;gap:14px;align-items:flex-end;padding:14px 18px;background:var(--surface);border-bottom:1px solid var(--line)}
 .ctrl{display:flex;flex-direction:column;gap:4px}.ctrl label{font-size:11px;color:var(--mut);text-transform:uppercase;letter-spacing:.04em;font-weight:600}
 select{font-size:15px;padding:8px 10px;border:1px solid var(--line);border-radius:8px;background:var(--surface);color:var(--txt);min-width:180px}
